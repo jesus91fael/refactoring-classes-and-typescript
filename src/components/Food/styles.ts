@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   background: #f0f0f5;
@@ -12,11 +12,11 @@ export const Container = styled.div`
     transition: 0.3s opacity;
     text-align: center;
 
-    ${props =>
+    /* ${props =>
     !props.available &&
     css`
         opacity: 0.3;
-      `};
+      `}; */
 
     img {
       pointer-events: none;
